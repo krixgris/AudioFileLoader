@@ -25,7 +25,5 @@ internal class Program
 
 		var serviceProvider = serviceCollection.BuildServiceProvider();
 		var app = ActivatorUtilities.CreateInstance(serviceProvider, typeof(MainViewModel));
-		// MainViewModel mainViewModel = new MainViewModel(new AudioFileLoaderService());
-		// Console.WriteLine("Hello, World!");
 	}
 }
